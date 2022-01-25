@@ -1,8 +1,8 @@
-import Practice02 from "../practicas/Practice02";
+import Practica03 from "../practicas/Practica03";
 
 function App () {
     return <div>
-        <Practice02 />
+        <Practica03 />
     </div>
 }
 
