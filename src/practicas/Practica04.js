@@ -1,7 +1,7 @@
 import Practica05 from "./Practica05";
 
-function Practica04 ( props ) {
-    const { name, lastName, fullName, age, city, country } = props;
+function Practica04 ( { name, lastName, fullName, age, city, country, ...rest } ) {
+    // const { name, lastName, fullName, age, city, country } = props;
 
     return <div>
         <p><b>Nombre: </b> { name } </p>
@@ -10,9 +10,9 @@ function Practica04 ( props ) {
         <p><b>Edad: </b> { age }</p>
         <p><b>Dirección: </b> { `${ city }, ${ country }` }</p>
 
-        <Practica05
+        {/* <Practica05
             nombre={ name }
-        />
+        /> */}
     </div>;
 }
 
