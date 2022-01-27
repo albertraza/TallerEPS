@@ -1,7 +1,7 @@
 import Practica04 from "./Practica04";
 
 
-function obtenerUsuario () {
+export function obtenerUsuario () {
     const pais = 'RD';
     const ciudad = 'Santo Domingo';
     const nombre = 'Pedro';
